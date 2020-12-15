@@ -10,12 +10,16 @@ library("ffbase")
 
 #limpar memoria
 
+
 rm(list = ls())
 .rs.restartR()
 
+
+####dddd
 #############################################baixar ffdf#######################################
 
 matricula_ne<-read.csv2.ffdf(file="MATRICULA_NORDESTE.csv",sep="|",first.rows=1000000) #2019
+
 
 ##############################################salvar ffdf#######################################
 
